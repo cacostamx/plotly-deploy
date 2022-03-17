@@ -119,8 +119,8 @@ function buildCharts(sample) {
     var bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
       xaxis: {title:"OTU ID"},
-      plot_bgcolor:"black",
-      paper_bgcolor:"black"
+      //plot_bgcolor:"black",
+      paper_bgcolor:"#000320"
     };
 
     // // 3. Use Plotly to plot the data with the layout.
@@ -163,8 +163,8 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 600, 
-      height: 500, 
+      width: 500, 
+      height: 350, 
       margin: { t: 0, b: 0 }
     };
 
